@@ -35,9 +35,93 @@
     <!--
     <link rel="canonical" href="http://www.example.com/">
     -->
+    <!-- Material Design icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Material Design Fonts -->
+    <link
+      href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic'
+      rel='stylesheet' type='text/css'>
+
+    <!-- Material Design Lite page styles:
+    You can choose other color schemes from the CDN, more info here http://www.getmdl.io/customize/index.html
+    Format: material.color1-color2.min.css, some examples:
+    material.red-teal.min.css
+    material.blue-orange.min.css
+    material.purple-indigo.min.css
+    -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue_grey-indigo.min.css">
+
+    <!-- Your styles -->
+    <link rel="stylesheet" href="styles/main.css">
   </head>
-  <body>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <!-- Add your site or app content here -->
+    <div class="mdl-layout mdl-js-layout">
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+          <a class="mdl-navigation__link is-active" href="index.html">Home</a>
+          <a class="mdl-navigation__link" href="blog.html">About</a>
+          <a class="mdl-navigation__link" href="about.html">Resume</a>
+          <a class="mdl-navigation__link" href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+      <main class="mdl-layout__content">
+        <div class="title-section-background">
+          <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+            <div class="mdl-layout__header-row">
+              <!-- Title -->
+              <span class="mdl-layout-title">Wei-Ting Lu</span>
+              <!-- Add spacer, to align navigation to the right -->
+              <div class="mdl-layout-spacer"></div>
+              <!-- Navigation -->
+              <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="#">Home</a>
+                <a class="mdl-navigation__link" href="#">About</a>
+                <a class="mdl-navigation__link" href="#">Resume</a>
+                <a class="mdl-navigation__link" href="#">Contact</a>
+              </nav>
+            </div>
+          </header>
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp title-section">
+            <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center mdl-color-text--white">
+              <p class="mdl-typography--display-3">Hi, I'm Wei-Ting!</p>
+              <p class="mdl-typography--display-1">Software Engineer and Hapiness Hero</p>
+            </div>
+          </section>
+        </div>
+
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+            <div class="mdl-mega-footer--left-section">
+              <button class="mdl-mega-footer--social-btn"></button>
+              &nbsp;
+              <button class="mdl-mega-footer--social-btn"></button>
+              &nbsp;
+              <button class="mdl-mega-footer--social-btn"></button>
+            </div>
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Back to Top
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-mega-footer--bottom-section">
+            <p class="mdl-typography--font-light">Copyright © 2016 Wei-Ting Lu</p>
+          </div>
+
+        </footer>
+      </main>
+    </div>
+
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <!-- build:js scripts/main.min.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>

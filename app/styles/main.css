@@ -211,3 +211,26 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+
+/* Begin Custom CSS */
+
+.mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.mdl-layout__content .title-section {
+  padding-top: 90px;
+}
+
+.title-section,
+.title-section-background {
+  height: 600px;
+}
+
+.title-section-background {
+  background: url('../images/background/OsakaNight.jpg') center / cover;
+}
+
