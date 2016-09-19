@@ -234,3 +234,18 @@ html, body {
   background: url('../images/background/OsakaNight.jpg') center / cover;
 }
 
+.self-portrait {
+  height: 600px;
+}
+
+.find-me-icons {
+  width: 128px;
+}
+
+.social-button {
+  width: 36px;
+}
+
+.mdl-mega-footer--social-btn {
+  background-color: transparent;
+}
