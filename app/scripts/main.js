@@ -73,4 +73,7 @@
   }
 
   // Your custom JavaScript goes here
+  let copyrightElement = document.getElementById('copyright-text');
+  const currentYear = new Date().getFullYear();
+  copyrightElement.innerHTML = `Copyright © ${currentYear} Wei-Ting Lu`;
 })();
