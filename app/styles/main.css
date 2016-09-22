@@ -214,6 +214,9 @@ html, body {
 
 
 /* Begin Custom CSS */
+.main-header-background {
+  background-color: #424242;
+}
 
 .mdl-layout__drawer-button {
   /* This background is dark, so we set text to white. Use 87% black instead if
@@ -248,4 +251,8 @@ html, body {
 
 .mdl-mega-footer--social-btn {
   background-color: transparent;
+}
+
+.mdl-layout__container .mdl-layout .mdl-layout__content .resume-section {
+  margin-bottom: 0px;
 }

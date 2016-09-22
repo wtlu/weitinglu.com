@@ -9,7 +9,9 @@
     <main class="mdl-layout__content">
       <div class="title-section-background">
 
-        @@include('./partials/header.html')
+        @@include('./partials/header.html', {
+          "extra-classes": "mdl-layout__header--transparent"
+        })
         <section class="section--center mdl-grid mdl-grid--no-spacing title-section">
           <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center mdl-color-text--white">
             <p class="mdl-typography--display-3">Hi, I'm Wei-Ting!</p>
