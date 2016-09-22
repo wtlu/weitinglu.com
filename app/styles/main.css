@@ -256,3 +256,7 @@ html, body {
 .mdl-layout__container .mdl-layout .mdl-layout__content .resume-section {
   margin-bottom: 0px;
 }
+
+.about-me-portrait {
+  max-height: 800px;
+}
