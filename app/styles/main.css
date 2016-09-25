@@ -238,11 +238,12 @@ html, body {
 }
 
 .self-portrait {
-  height: 600px;
+  max-width: 100%;
 }
 
 .find-me-icons {
   width: 128px;
+  margin: 25px;
 }
 
 .social-button {
@@ -258,5 +259,6 @@ html, body {
 }
 
 .about-me-portrait {
-  max-height: 800px;
+  max-width: 100%;
+  max-height: 1200px;
 }
